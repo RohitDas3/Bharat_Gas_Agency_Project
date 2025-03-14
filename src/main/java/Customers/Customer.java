@@ -1,6 +1,6 @@
 package Customers;
 import gasSupplier.gasAgency;
-public class Customer {
+public class Customer implements  gasAgency{
     public String name;
     public String Street;
     public String area;
