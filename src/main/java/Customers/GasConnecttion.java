@@ -3,13 +3,13 @@ package Customers;
 import java.text.SimpleDateFormat;
 import java.util.*;
 public class GasConnecttion extends Customer {
-    int numberOfCylinders;
+    public int numberOfCylinders;
     String date;
     static int connectionNumber = 100;
     static {
         connectionNumber += 1;
     }
-    Date lastDate = null;
+    public Date lastDate = null;
     SimpleDateFormat dateFormat = new SimpleDateFormat( "dd-MM-yyyy" );
     public GasConnecttion(String name, String street, String area, String pincode, String mobile) {
         super(name, street, area, pincode, mobile);
